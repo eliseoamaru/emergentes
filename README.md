@@ -1,8 +1,5 @@
 #    Práctica N° 1
-##SISTEMAS EMPRESARIALES
-
-
-**MarkdownPad** is a full-featured Markdown editor for Windows.
+## SISTEMAS EMPRESARIALES
 
 ### 1) Explique que son los sistemas empresariales
 
