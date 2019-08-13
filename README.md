@@ -60,9 +60,9 @@ Versión del protocolo, código de estado, mensaje de estado, cabeceras http
 
 **LINEA DE ESTADO**, Consta de 2 partes, el protocolo y un condigo numérico de estado seguido de un mensaje breve. Código 200, peticiones GET tuvo éxito
 Ejemplo: HTTP/1.1 200 OK
-![Sin titulo](pictures/response.jpg)
+![Sin titulo](pictures/response.png)
 ### 9) Describa con un gráfico la arquitectura Java EE
-![Sin titulo](pictures/java.jpg)
+![Sin titulo](pictures/java.png)
 ###10) Explique cuáles son los contenedores, componentes y servicios de Java EE
 **Contenedor WEB** -> Maneja la ejecución de las páginas web, servlets y algunos componentes ejb para las aplicaciones Java EE.
 
