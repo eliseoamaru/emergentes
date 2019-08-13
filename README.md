@@ -53,7 +53,7 @@ El REQUEST line está formado por 3 partes:
 - El protocolo: Consta de HTTP y el número de versión de protocolo que empieza comúnmente por 1.1
 - **Ejemplo :** 
 /form.php nombre=Juan&apellidos=Perez&action=Submit HTTP/1.1
-![Sin titulo](pictures/request.jpg)
+![Sin titulo](pictures/request.png)
 
 ### 8) Explique los elementos importantes de RESPONSE en HTTP
 Versión del protocolo, código de estado, mensaje de estado, cabeceras http
@@ -62,7 +62,7 @@ Versión del protocolo, código de estado, mensaje de estado, cabeceras http
 Ejemplo: HTTP/1.1 200 OK
 ![Sin titulo](pictures/response.png)
 ### 9) Describa con un gráfico la arquitectura Java EE
-![Sin titulo](pictures/java.png)
+![Sin titulo](pictures/java.jpg)
 ###10) Explique cuáles son los contenedores, componentes y servicios de Java EE
 **Contenedor WEB** -> Maneja la ejecución de las páginas web, servlets y algunos componentes ejb para las aplicaciones Java EE.
 
