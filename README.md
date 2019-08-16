@@ -64,7 +64,7 @@ Ejemplo: HTTP/1.1 200 OK
 ### 9) Describa con un gráfico la arquitectura Java EE
 ![Sin titulo](pictures/java.jpg)
 
-###10) Explique cuáles son los contenedores, componentes y servicios de Java EE
+### 10) Explique cuáles son los contenedores, componentes y servicios de Java EE
 **Contenedor WEB** -> Maneja la ejecución de las páginas web, servlets y algunos componentes ejb para las aplicaciones Java EE.
 
 **Contenedor de negocios EJBs** -> Maneja la ejecución de los enterprise beans.
@@ -79,13 +79,14 @@ Servicios de Java EE
 - ***De directorio:** para la indexación componentes y recursos y búsqueda de componentes y recursos.
 - ***De despliegue:*** para poder personalizar los componentes y recursos
 - ***De Seguridad***, Para autenticar y autorizar a los usuarios de la aplicación.
-De acceso a datos: para facilitar el acceso a Bases de Datos
+- ***De acceso a datos:*** Para facilitar el acceso a Bases de Datos
 
-###11) Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y ***HttpServletResponse***, y para cada uno de los métodos muestre un ejemplo.
+### 11) Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y ***HttpServletResponse***, y para cada uno de los métodos muestre un ejemplo.###
 
 public abstract interface Servlet: Todos los servlets implementan este interfaz directamente o extendiendo una clase que lo implemente como HttpServlet. Entre sus métodos están:
 
 •	***init(ServletConfig config):*** Es el método utilizado para crear una nueva instancia del servlet (análogo al constructor). Ver el ciclo de vida. Este método puede ser sobreescrito para realizar tareas como crear una conexión a una BD que se mantendrá mientras el servlet se mantenga cargado y puede ser utilizada por cada petición. ServletConfig contiene los parámetros de inicialización que entrega el servidor al servlet.
+
 •	***getServletConfig():*** Retorna la configuración dada para la inicialización del servlet.
 
 •	***service(ServletRequest req, ServletResponse res):*** Este método es el que se llama cuando se recibe una petición de un cliente y en su implementación normal para HTTP verifica el tipo de solicitud GET, POST, etc. y la redirige a los métodos respectivos. En general no es necesario reimplementar este método.
@@ -113,7 +114,9 @@ public class CatalogServlet extends
 ***•	getInputStream():*** Sirve para crear un canal de comunicación para obtener dados binarios.
 
 ***public abstract interface ServletResponse:*** Define un objeto para permitir a un servlet enviar una respuesta al cliente. Proporciona dos formas de devolver datos al usuario.
+
 ***•	setContentType(String type):*** Permite definir el tipo de respuesta que se le dará al cliente. Si se retornará una página web deberá ser text/html.
+
 ***•	getWriter():*** Retorna un objeto Writer para poder enviar respuestas de texto.
 
 ***•	getOutputStream():*** Retorna un objeto ServletOutputStream que permite enviar respuestas binarias al cliente.
