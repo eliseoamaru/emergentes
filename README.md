@@ -81,7 +81,7 @@ Servicios de Java EE
 - ***De Seguridad***, Para autenticar y autorizar a los usuarios de la aplicación.
 - ***De acceso a datos:*** Para facilitar el acceso a Bases de Datos
 
-### 11) Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y ***HttpServletResponse***, y para cada uno de los métodos muestre un ejemplo.###
+### 11) Investigue los métodos más utilizados de las clases HttpServlet, HttpServletRequest y ***HttpServletResponse***, y para cada uno de los métodos muestre un ejemplo.
 
 public abstract interface Servlet: Todos los servlets implementan este interfaz directamente o extendiendo una clase que lo implemente como HttpServlet. Entre sus métodos están:
 
